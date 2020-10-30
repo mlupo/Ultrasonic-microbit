@@ -4,12 +4,14 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "kitronik-move-motor": "github:KitronikLtd/pxt-kitronik-move-motor"
     },
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "ultrasonic-tutorial.md"
     ],
     "testFiles": [
         "test.ts"
@@ -18,5 +20,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
